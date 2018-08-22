@@ -7,6 +7,15 @@
 
 }
 
+.nav>li>a:focus, .nav>li>a:hover{
+    background-color: transparent;
+    text-decoration: underline !important;
+}
+
+.icon-bar{
+    background-color: #fff;
+}
+
 .navbar-header > img{
 	width:40%;
 }
@@ -57,3 +66,281 @@
 	color: #fff	;
 	margin-top: 4em;
 }
+
+.about-us{
+    padding-right: 6em;
+}
+
+/* Wrap 2 */
+
+.about-us h1{
+	font-family: 'Yesteryear', cursive;
+	color: #bf9e7b;
+	font-size: 4em;
+	margin-top: 1em;
+    margin-bottom: 1.5em;
+    text-align: center;
+
+}
+
+.about-us p{
+    font-family: 'Raleway', sans-serif;
+    font-style: medium;
+    line-height: 3em;
+    text-align : center;
+    margin-bottom: 50px;
+}
+
+.contact-box{
+     background-color:#141723;
+    padding: 30px 40px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    
+}
+
+.wrap-2 .col-lg-5{
+    padding-left: 35px
+}
+
+
+
+.contact-box h3{
+    font-family: 'Vollkorn', serif;
+    color: #bf9e7b;
+    font-size: 25px; 
+}
+
+.contact-box p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color:#fff;
+}
+
+.contact-box a{
+    color:#bf9e7b;
+    border-bottom: 1px solid #bf9e7b;
+    padding-bottom: 2px;
+    
+ 
+}
+
+.contact-box h5{
+    color:#fff;
+    padding-top: 1em;
+    padding-bottom: 0em;
+}
+
+.contact-box button{
+    border: 1px solid #be9d7a;
+    background-color: #141723;
+    color:#fff;
+    display: block;
+    margin: auto;
+    padding: 10px 15px;
+    margin-top: 3em;
+}
+
+.long-image img{
+    width: 100%;
+}
+
+.long-image{
+    padding: 0px
+}
+
+.about-us-right{
+    margin-top:-250px;
+}
+
+/* Wrap 3 */
+
+.wrap-3{
+    background-image: url(../images/back.jpg);
+    margin-top: 30px
+}
+.our-specialities h1{
+    font-family: 'Yesteryear', cursive; 
+    text-align: center;
+    font-size: 55px; 
+    color:#fff;
+}
+
+.our-specialities p{
+    font-family: 'Vollkorn', serif;
+    text-align: center;
+    color:#fff;
+    margin-top: 30px;
+}
+
+.our-specialities{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.dish-pic{
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+.dish-pic p{
+    color:#bf9e7b;
+    font-family: 'Vollkorn', serif;
+    text-align: center;
+    padding: 13px 25px;
+    background-color: #fff;
+}
+
+
+/* Wrap - 4 */
+
+.wrap-4{
+    width:100%;
+    background-color:#141723;
+   // margin-bottom: 25px;
+}
+
+.menu-head h1{
+    font-family: 'Yesteryear', cursive; 
+    text-align: center;
+    font-size: 55px; 
+    color:#bf9e7b;
+    margin-top: 60px;
+}
+
+.menu-head p{
+    font-family: 'Vollkorn', serif;
+    text-align: center;
+    color:#fff;
+    margin-top: 30px;
+}
+
+.menu-dishes{
+    margin-bottom: 40px;
+}
+
+
+
+.menu-dishes h2{
+    text-align: center;
+    color:#bf9e7b;
+    font-family: 'Raleway', sans-serif;
+}
+
+.menu-dishes p{
+    color: #fff;
+    font-family: 'Vollkorn', serif;
+}
+
+.menu-dishes h4{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    
+}
+
+.menu-dishes h2{
+    padding-top: 20px;
+}
+
+.menu-dishes .dish-container{
+    margin-top: 40px
+}
+
+.category{
+    margin-bottom: 40px
+}
+
+.view-menu {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    background-color:#be9d7a;
+    padding:15px 35px;
+    margin:auto;
+    display: block;
+    border:0px;
+    margin-bottom: 45px;
+
+    
+}
+
+/* Wrap 5 */
+
+.wrap-5{
+    background-image: url(../images/back3.jpg);
+    padding: 50px;
+}
+
+.book-table{
+    margin-bottom: 60px
+}
+
+.book-table h1{
+    font-family: 'Yesteryear', cursive; 
+    text-align: center;
+    font-size: 55px; 
+    color:#fff;
+    margin-top: 60px;
+}
+
+.book-table p{
+    font-family: 'Vollkorn', serif;
+    text-align: center;
+    color:#fff;
+    margin-top: 30px;
+}
+
+.wrap-5 p{
+    color: #fff;
+}
+
+.wrap-5 input,.wrap-5 select{
+    border-radius: 0px;
+    height: 60px;
+}
+
+.inp-box{
+    margin-bottom: 50px
+}
+
+/* Wrap 6 */
+
+.wrap-6{
+    background-color: #141723;
+    color: #fff;
+    padding: 40px 0px;
+}
+
+.social a{
+    font-size: 25px;
+    color:#fff;
+    border:1px solid #be9d7a;
+    padding: 10px ;
+    margin-right: 10px;
+}
+
+.wrap-6 p{
+    font-family: 'Vollkorn', serif;
+}
+
+.wrap-6 h4{
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 25px;
+}
+
+.btn{
+    border-radius: 0px;
+    padding: 10px 40px;
+    background-color: #141723;
+    border: 1px solid #be9d7a;
+    margin-top: 25px
+    
+}
+
+.wrap-6 .footer-text{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    margin-top: 35px
+    
+}
+

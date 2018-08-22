@@ -1,0 +1,108 @@
+
+
+
+@media only screen and (max-width:572px){
+  
+    .hide-on{
+        display: none;
+    }
+    
+    .wrap-2  .container{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .wrap-2  .about-us-right{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .about-us p{
+        padding-right: 20px;
+    }
+    
+    .contact-box p{
+        font-size: 13px;
+    }
+    
+    .category{
+        font-size: 24px;
+    }
+    
+}
+
+
+
+@media only screen and (min-width:768px){
+   .myClass { height: 200px; } 
+}
+
+/*Small devices Tablets (≥768px)*/  
+@media only screen and (max-width:768px){
+
+    .dish-pic img{
+        margin-left: auto;
+            margin-right:auto;
+    }
+    
+    .dish-pic p{
+        max-width: 440px;
+        margin-left: auto;
+            margin-right:auto;
+    }
+}
+/*Medium devices Desktops (≥992px)*/    
+@media only screen and (max-width:992px){
+     .about-us-right{
+    margin-top:0px;
+    }
+    
+    .top-section {
+    width: 100%;
+}
+    .top-section h1, .top-section h3, .top-section p{
+        text-align: center;
+    }
+    
+    .about-us {
+        padding-right: 0;
+    }
+    
+    .distance{
+        margin-bottom: 50px;
+    }
+    
+    .social a{
+        padding:20%;
+        font-size: 40px;
+    }
+    
+}
+
+/*Large devices Desktops (≥1200px)*/
+@media only screen and (max-width:1200px){
+    .myClass { height: 800px; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
